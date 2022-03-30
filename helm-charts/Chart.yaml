@@ -1,0 +1,6 @@
+apiVersion: v2
+name: chaos-journey-api
+description: A Helm chart for Kubernetes to deploy the Chaos Journey Api Experiment
+type: application
+version: #{Build.BuildId}#
+appVersion: "#{Build.BuildId}#"
