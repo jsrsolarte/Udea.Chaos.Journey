@@ -2,7 +2,7 @@ using MediatR;
 using System.Reflection;
 using Udea.Chaos.Journey.Infrastructure.Extensions;
 
-var applicationAssembly = Assembly.Load("Udea.Chaos.Vehicle.Application");
+var applicationAssembly = Assembly.Load("Udea.Chaos.Journey.Application");
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;

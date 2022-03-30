@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Udea.Chaos.Journey.Application\Udea.Chaos.Journey.Application.csproj" />
     <ProjectReference Include="..\Udea.Chaos.Journey.Infrastructure\Udea.Chaos.Journey.Infrastructure.csproj" />
   </ItemGroup>
 
